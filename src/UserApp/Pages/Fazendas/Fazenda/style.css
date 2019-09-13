@@ -1,0 +1,58 @@
+.ui[class*="center aligned"].container {
+    text-align: center;
+    width: 100% !important;
+}
+.fazenda-administracao .ui.card{
+	width: 200px !important;
+	text-align: center;
+}
+.fazenda-administracao .header{
+	margin: 0px !important;
+}
+.fazenda-administracao .content{
+	min-height: auto !important;
+}
+.fazenda-administracao .ui.button{
+	border: 1px solid #007bff;
+	background: #fff none;
+    color: #007bff;
+}
+.fazenda-administracao .ui.button:hover{
+	border: 1px solid #0056B3;
+	background: #007bff none;
+    color: #fff;
+}
+.fazenda-dados{
+	text-align: center;
+}
+.fazenda-dados a{
+	text-decoration: none !important;
+	text-transform: none !important;
+}
+.fazenda-dados .header{
+	margin: 0px !important;
+}
+.fazenda-dados img{
+	width: 50%;
+	display: block !important;
+	margin: 0px auto !important;
+}
+.fazenda-dados .grid{
+	margin: 0 !important;
+}
+.fazenda-informacoes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: rgba(0,0,0,0.3);
+}
+@media only screen and (max-width: 480px){
+	.fazenda-administracao .ui.card{
+		width: 100% !important;
+		text-align: center;
+	}
+	.fazenda-administracao .ui.card img{
+		width: 40% !important;
+	}
+}

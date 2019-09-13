@@ -1,0 +1,15 @@
+.inputPesquisa{
+	border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    padding: 18px 18px !important;
+}
+.inputPesquisa:focus{
+	border: none !important;
+	box-shadow: none !important;
+}
+.input-group-text{
+	padding: 11px 19px 11px 5px !important;
+}
+.input-group-append {
+    margin-left: 0px !important;
+}

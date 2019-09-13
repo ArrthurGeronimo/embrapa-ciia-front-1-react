@@ -1,0 +1,12 @@
+.sidebar[data-color="newBlue"]:after, .off-canvas-sidebar[data-color="newBlue"]:after{
+	background: #2A58AD;
+}
+.sidebar[data-color="newBlue"] .nav li.active > a, .off-canvas-sidebar[data-color="newBlue"] .nav li.active > a {
+    color: #2A58AD;
+}
+.sidebar[data-color="newBlue"] .nav li.active > a i, .off-canvas-sidebar[data-color="newBlue"] .nav li.active > a i {
+    color: #2A58AD;
+}
+.sidebar .logo, .off-canvas-sidebar .logo {
+    padding: 0.5rem 5rem !important;
+}
